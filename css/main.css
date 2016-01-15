@@ -1,0 +1,44 @@
+@media only screen and (min-width: 660px) {
+  body{
+    background-color: #c9ebf7;
+    margin: 0;
+    font-family: calibri
+  }
+  article, nav,section,div{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  h1::before{
+    content: "&#x265b;";
+  }
+  h1{
+    color:#3366FF;
+    text-align: center;
+    font-size: 400%
+  }
+  h2{
+    color:#B9121B;
+  }
+  nav a {
+    display: inline-block;
+    background-color: #B9121B;
+    border-radius: 30%;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 6%;
+    color: #FEFEFE;
+  }
+  nav {
+    text-align: center;
+  }
+  blockquote{
+    font-style: italic;
+    background-color: #DCE2E1;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  img{
+    width: 5%
+  }
+}
